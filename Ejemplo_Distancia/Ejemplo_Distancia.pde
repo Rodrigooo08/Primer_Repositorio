@@ -6,10 +6,10 @@ public void setup(){
  calcularDistancia();
  mostrarDistancia();
 }
-public void calcularDistancia(){
+public void calcularDistancia(){ //calculo la distancia entre mario y kooppa
  distanciaMK = posicionKooppa - posicionMario; 
   
 }
 public void mostrarDistancia(){
- println(distanciaMK); 
+ println(distanciaMK); // muestra la distancia entre mario y kooppa
 }
